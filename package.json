@@ -21,6 +21,7 @@
   "scripts": {
     "start": "node ./server.js",
     "build": "react-scripts build",
+    "heroku-postbuild": "ng build --prod",
     "eject": "react-scripts eject",
     "test": "cypress open",
     "lint": "eslint ./src/components/*.{js,jsx}"
